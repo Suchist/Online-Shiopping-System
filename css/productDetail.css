@@ -1,0 +1,126 @@
+#productDetail{
+	background-color:white;
+	font:10px NeueMontreal-Regular,Arial,sans-serif,Helvetica,PingFang SC,Tahoma;
+}
+#productDetail .productImges{
+		width:887px;	
+}
+#productDetail .productImges .imgebox{
+		margin:5px;
+		width:425px;
+		height:667px;
+		 
+}
+#productDetail .productImges .imgebox img{
+		width:425px;
+		height:667px;
+ 
+}
+#productDetail .productInfo{
+		margin-left:20px;
+		width:270px;
+		padding-left:5px;
+}
+#productDetail .productInfo .productIntro{
+	width:232px;
+	height:154px;
+	border-bottom:1px solid black;
+}
+#productDetail .productInfo .productIntro h1{
+	font:22px NeueMontreal-Regular,Arial,sans-serif,Helvetica,PingFang SC,Tahoma;
+}
+#productDetail .productInfo .productIntro h4{
+	font-size:22px;
+	color:#444444;
+	margin-bottom: 10px;
+	font-weight:600;
+}
+#productDetail .productInfo .productIntro p{
+	line-height:60%;
+}
+#productDetail .productInfo .productColor{
+	width:232px;
+	height:121px;
+}
+#productDetail .productInfo h5{
+	font-size:12px;
+	line-height:60%;
+}
+#productDetail .productInfo .productColor p{
+	width:232px;
+	height:92px;
+	border-bottom:1px solid black;
+	margin-top:-10px;
+}
+#productDetail .productInfo .productColor img{
+	width:60px;
+	height:88px;
+
+}
+#productDetail .productInfo .productSize{
+	width:232px;
+	height:180px;
+	border-bottom:1px solid black;
+}
+#productDetail .productInfo .productSize a{
+	padding:5px 0 0 10px ;
+    height: 20px;
+    display: block;
+    text-align: left;
+    line-height: 10px;
+    font-size: 13px;
+    font-weight: 600;
+	color:#8e8e93;
+
+}
+#productDetail .productInfo .productSize a:hover{
+	background: #d1d1d1;
+    cursor: pointer;
+}
+#productDetail .productInfo .productOperation{
+	width:232px;
+	height:290px;
+	border-bottom:1px solid black;
+}
+
+.productOperation .number .arrow, .number span{
+    width: 60px;
+    color: #474747;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 0;
+	border:1px solid #d1d1d1;
+	margin:0 -2px;
+}
+.productOperation .number span {
+    width: 110px;
+    padding: 8px 0;
+}
+.productOperation .btn1{
+	    width: 232px;
+		height:15px;
+		border:1px solid #d1d1d1;
+		font-size: 14px;
+        display: inline-block;
+        text-align: center;
+        padding: 8px 0;
+	    margin-top:8px;
+		color:#6b6b6b;
+}
+.productOperation .btn1:hover{
+	border:1px solid black;
+}
+.productOperation .buy{
+	background-color:#0047ba;
+	color:#ffffff;
+}
+.productOperation h6{
+	color:#8E8E93;
+}
+.productNotice{
+	 width: 232px;
+}
+.productNotice p{
+	color:#8E8E93;
+}
