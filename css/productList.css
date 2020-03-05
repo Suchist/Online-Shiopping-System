@@ -1,0 +1,28 @@
+/*ๅ•ๅ“ๅ—่กจ*/
+#productList{
+	background-color:white;
+}
+.product{
+	height:450px;
+	padding:0 10px;
+	margin-top:20px;
+}
+.product .imgebox{
+	width:272px;
+	height:352px;
+}
+.product .imgebox:hover{
+	border:1px solid black;
+}
+.product .imgebox img{
+	width:272px;
+	height:352px;
+}
+.product .textbox{
+	text-align:center;
+	font-size:10px;
+	color:#474747;
+	width:272px;
+	height:80px;
+	height:80px;
+}
