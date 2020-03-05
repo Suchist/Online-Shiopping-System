@@ -3,25 +3,31 @@
 <head>
 <meta charset="utf-8"/>
 <title>FY(FOREVER YOUNG)</title>
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/index.css">
 <link rel="icon" href="title.ico">
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 <div id="head_index" class="layer clearfix">
+		
+
+		<ul class="fl">
 		<li class="dropdown">
 		   <span class="iconfont arrow">&#xe890;</span>
 		  <div class="dropdown-content ">
-		  <ul>
-			<li>本周新品</li>
-			<li>女士 </li>
-			<p>青春</p>
-			<p>男士</p>
-			<p>配件</p>
-			</ul>
+	
+			<p><a href="#">本周新品</a></p>
+			<p><a href="#"> 女士</a></p>
+			<p><a href="#">青春</a></p>
+			<p><a href="#">男士</a></p>
+			<p><a href="#">配件</a></p>
+			
+	
 		  </div>
 		  </li>
-
-		<ul class="fl">
 				<li class="login">
 			   <a href="#">亲，请登录</a>
 			   <a href="#">免费注册</a>
@@ -30,6 +36,7 @@
 	          <a  href="#">手机登录</a>
 		</li>
 		</ul>
+
 	
 		<ul class="fr">
 			<li>
@@ -52,13 +59,38 @@
 		</ul>
 </div>
 <!--轮播图  -->
-<div id="newslist">
-
-
-
-
-
+<div div id="newslist" class="layer clearfix carousel slide " data-ride="carousel">
+  <!-- 指示符 -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+ 
+  <!-- 轮播图片 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/news/new0.jpg">
+    </div>
+    <div class="carousel-item">
+        <img src="images/news/new1.jpg">
+    </div>
+    <div class="carousel-item">
+        <img src="images/news/new2.jpg">
+    </div>
+  </div>
+ 
+  <!-- 左右切换按钮 -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+ 
 </div>
+
+
 
 
 <!--热门商品分类 -->
