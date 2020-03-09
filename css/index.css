@@ -61,7 +61,6 @@ background-color:white;
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 #head_index li strong{
 	color:#f22e00;
 }
@@ -213,6 +212,7 @@ background-color:white;
 	background-color:white;
 	position:relative;
 	top:-14px;
+	border-top:1px solid #d1d1d1;
 }
 #footer .lf{
     width:300px;
@@ -266,3 +266,24 @@ background-color:white;
 	color:#8e8e93;
 }
 
+/*页面导航栏*/
+.guide{
+	height:40px;
+	
+}
+.guide ul{
+	width:500px;
+	
+}
+
+.guide li{
+	float:left;
+	line-height:40px;
+	padding:0 6px;
+	color:#ACACAC;
+	font-size:13px;
+
+}
+.guide a{
+		color:#6B6B6B;
+}
