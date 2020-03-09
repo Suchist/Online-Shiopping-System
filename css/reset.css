@@ -19,6 +19,10 @@ a{
 	text-decoration:none;
 	color：#3c3c3c;
 }
+a:hover{
+	text-decoration:none;
+	color：#3c3c3c;
+}
 i{
 	font-style:normal;
 	/*设置i斜体字为普通样式*/
@@ -29,6 +33,9 @@ padding：0;
 }
 button{
 	outline:none;
+}
+a{
+	color:black;
 }
 /*
 设置行高的时候可以设置为：1.5/200%/50px/5em得出的结果*font-size
@@ -63,11 +70,20 @@ body{
 .c5{
 	color:#f50;
 }
+.c-gray{
+color:#8E8E93;
+}
 .mt5{
 	margin-top:5px;
 }
 .mt10{
 	margin-top:10px;
+}
+.mt30{
+	margin-top:30px;
+}
+.mt50{
+	margin-top:50px;
 }
 .mt20{
 	margin-top:20px;
@@ -77,6 +93,12 @@ body{
 }
 .mr10{
 	margin-right:10px;
+}
+.ml10{
+	margin-left:10px;
+}
+.ml40{
+	margin-left:40px;
 }
 .mr7{
 	margin-right:7px;
@@ -91,14 +113,18 @@ body{
 	font-size:13.3px;
 	color:#999999;
 }
+.di{
+	  display: inline-block;
+}
 h4{
-	font-size:22px;
+	font-size:12px;
 	color:#444444;
 	margin-bottom: 10px;
 	font-weight:600;
 }
 h1{
-	font-weight:400;
+	font-size:20px;
+	font-weight:600;
 }
 .c-gray{
 		color:#8e8e93;
@@ -107,4 +133,34 @@ h6{
 	font-size: 100%;
     font-weight: 400;
     line-height: 18px;
+}
+.btn1{
+	    width: 100px;
+		height:35px;
+		/*35px*/
+		font-size: 14px;
+        display: inline-block;
+        text-align: center;
+        padding: 8px 0;
+	    margin-top:8px;
+	
+}
+.edit{
+		background-color:black;
+		color:white;	
+}
+.ok{
+		background-color:black;
+		color:white;	
+}
+.cancle{
+	border:1px solid black;
+	color:black;		
+}
+.query{
+	border:1px solid #d1d1d1;;
+	color:black;		
+}
+.fs16{
+font-size:16px;
 }
