@@ -1,0 +1,231 @@
+.content{
+	    background-color:white;
+}
+
+
+.pagehead{
+	text-align:center;
+	height:50px;
+	border-bottom:2px solid black;
+
+}	
+.pagehead h1{
+	color:#444444;
+	font-size:24px;
+	line-height:50%;
+
+}
+.cart-title{
+	border-bottom:1px solid #F5F5F5;
+	
+}
+
+.cart-title li {
+    float: left;
+    font-size: 14px;
+	font-weight:600;
+	height:40px;
+	padding:5px 0;
+    color: #333333;
+    display: inline-block;
+	border-bottom:1px solid  #6B6B6B;
+}
+.cartBox .order-col1{
+	width:35%;
+    padding-left: 1%;
+}
+.cartBox .order-col9 {
+    width: 13%;
+}
+.cartBox .order-col7{
+    width: 16%;
+}
+/*购物车行*/
+.cartBox .cart-infor{
+	border-bottom:1px solid #d1d1d1;
+	height:178px;
+	margin-top:35px;
+	font-size: 14px;
+}
+/*第一列*/
+.cartBox .cintroduce{
+	height:178px;
+	padding:20px 10px;
+
+}
+/*第一列选择框*/
+.cartBox  .choose{
+	width:20px;
+	height:20px;
+}
+/*第一列图片*/
+.cartBox   .ci{
+	width:111px;
+	height:138px;
+}
+.cartBox .ci img{
+	width:111px;
+	height:138px;
+}
+/*服装名称和编号*/
+.cartBox .cinfor{
+	margin-left:10px;
+
+}
+.cartBox a{
+	color:black;
+}
+.cinfor span{
+	font-size: 14px;
+    line-height: 24px;
+}
+/*购物车其它列*/
+.cartBox  .order-col8{
+	float:left;
+	width: 13%;
+	height:178px;
+	text-align:center;
+	padding-top:70px;
+	
+}
+/*订单其它列*/
+.cartBox  .order-col6{
+	float:left;
+	width: 16%;
+	height:178px;
+	text-align:center;
+	padding-top:70px;
+	
+}
+
+.cart-infor .number span{
+	width: 25px;
+    color: #474747;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+	border:1px solid #d1d1d1;
+	margin:0 -2px;
+}
+.c_count{
+	height:150px;
+	font-size:13px;
+
+	padding-left:1000px;
+	padding-top:20px;
+}
+.c_operation{
+	height:120px;
+	border-bottom:2px solid #d1d1d1;
+	padding:0 10px ;
+}
+
+.c_operation  .btn2{
+	    width: 120px;
+		height:35px;
+		border:1px solid #d1d1d1;
+		font-size: 14px;
+        display: inline-block;
+        text-align: center;
+        padding: 8px 0;
+	    margin-top:8px;
+		color:#6b6b6b;
+}
+.c_operation  .buy{
+		background-color:#0047ba;
+		
+	color:#ffffff;
+}
+/*订单确认*/
+
+.userConfirm .sendway, .userConfirm .addressBox{
+	height:30px;
+	padding:4px 10px;
+
+}
+.userConfirm span{
+	margin-right:5px;
+}
+ .addressBox{
+	 background-color:#F5F5F5;
+	 font-size:15px;
+	 
+ }
+ .addressbtn{
+	 	width: 100px;
+		height:20px;
+		/*35px*/
+        display: inline-block;
+        text-align: center;
+		border:1px solid #d1d1d1;
+	   border-radius:10px;
+	  color:black;	
+ }
+/*支付界面*/
+
+.orderpay{
+	height:160px;
+	text-align: center;
+	padding:40px 0;
+	font-size:14px;
+	border-bottom:1px solid #F5F5F5;
+}
+.payway{
+		height:200px;
+	    padding:40px 0;
+		text-align: center;	
+	
+}
+.payway a{
+		width: 100px;
+		height:100px;
+
+		border: #e1e1e1 solid 1px;
+      border-radius: 5px;
+
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    padding: 20px;
+}
+.payway a:hover{
+		border: black solid 1px;
+}	
+.payway img{
+	width: 60px;
+	height:60px;
+	align:center;
+}
+.orderoperation{
+		height:100px;
+	    padding:0 10px;
+
+}
+.order-id{
+	height:40px;
+		padding:10px 10px;
+		font-size:14px;
+border-top:1px solid #d1d1d1;
+}
+
+.userConfirm .userInfor{
+height:160px;
+padding:20px 0;
+border-top:1px dashed #d1d1d1;
+border-bottom:1px solid #d1d1d1;
+}
+.userConfirm .userInfor .userdata{
+width:452px;
+height:120px;
+border-right:1px solid #d1d1d1;
+padding-left:100px;
+font-size:14px;
+
+}
+.userConfirm .userInfor .orderstatus{
+text-align:center;
+width:590px;
+font-size:15px;
+
+}
